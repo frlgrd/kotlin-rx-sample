@@ -17,11 +17,9 @@ abstract class BaseAdapter<ITEM, HOLDER : BaseAdapter.BaseViewHolder<ITEM>>(priv
 
     override fun getItemCount() = items.size
     override fun onBindViewHolder(holder: HOLDER, position: Int) = holder.view(items[position])
-    override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): HOLDER = getHolder(getView(AnkoContext.Companion.createReusable(context)))
+    override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): HOLDER = getHolder(AnkoContext.Companion.createReusable(context))
 
-    protected abstract fun getView(ui: AnkoContext<Context>): View
-
-    protected abstract fun getHolder(view: View): HOLDER
+    protected abstract fun getHolder(ui: AnkoContext<Context>): HOLDER
 
     abstract class BaseViewHolder<in ITEM>(itemView: View) : RecyclerView.ViewHolder(itemView) {
         abstract fun view(item: ITEM)

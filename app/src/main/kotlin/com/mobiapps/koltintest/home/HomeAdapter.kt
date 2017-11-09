@@ -8,11 +8,7 @@ import com.mobiapps.koltintest.core.model.Artist
 import org.jetbrains.anko.AnkoContext
 
 class HomeAdapter(context: Context) : BaseAdapter<Artist, HomeAdapter.Holder>(context) {
-    override fun getView(ui: AnkoContext<Context>) = with(ui) {
-        artistView()
-    }
-
-    override fun getHolder(view: View): Holder = Holder(view)
+    override fun getHolder(ui: AnkoContext<Context>) = Holder(with(ui) { artistView() })
 
     class Holder(itemView: View) : BaseAdapter.BaseViewHolder<Artist>(itemView) {
         private val artistView: ArtistView = itemView.findViewById(R.id.artistView)
