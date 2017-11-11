@@ -10,7 +10,7 @@ import android.widget.ImageView
 import android.widget.RelativeLayout
 import android.widget.TextView
 import com.mobiapps.koltintest.R
-import com.mobiapps.koltintest.core.model.Artist
+import com.mobiapps.koltintest.core.model.artist.Artist
 import com.squareup.picasso.Picasso
 import org.jetbrains.anko.*
 import org.jetbrains.anko.custom.ankoView

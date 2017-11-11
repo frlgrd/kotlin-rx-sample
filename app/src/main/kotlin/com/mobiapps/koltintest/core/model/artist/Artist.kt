@@ -1,4 +1,4 @@
-package com.mobiapps.koltintest.core.model
+package com.mobiapps.koltintest.core.model.artist
 
 data class Artist(
         val id: String,

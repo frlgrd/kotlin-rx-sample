@@ -1,7 +1,8 @@
 package com.mobiapps.koltintest.core.model.mapper
 
-import com.mobiapps.koltintest.core.model.dto.LastFmArtist
-import com.mobiapps.koltintest.core.model.dto.LastFmImage
+import com.mobiapps.koltintest.core.model.artist.mapper.ArtistMapper
+import com.mobiapps.koltintest.core.model.artist.dto.LastFmArtist
+import com.mobiapps.koltintest.core.model.artist.dto.LastFmImage
 import org.junit.Before
 import org.junit.Test
 import kotlin.test.assertEquals

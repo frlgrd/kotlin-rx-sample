@@ -1,4 +1,4 @@
-package com.mobiapps.koltintest.core.model.dto
+package com.mobiapps.koltintest.core.model.artist.dto
 
 enum class LastFmImageType(val type: String) {
 

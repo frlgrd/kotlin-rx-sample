@@ -1,8 +1,8 @@
-package com.mobiapps.koltintest.core.model.mapper
+package com.mobiapps.koltintest.core.model.artist.mapper
 
 import com.mobiapps.koltintest.App
-import com.mobiapps.koltintest.core.model.Artist
-import com.mobiapps.koltintest.core.model.dto.LastFmArtist
+import com.mobiapps.koltintest.core.model.artist.Artist
+import com.mobiapps.koltintest.core.model.artist.dto.LastFmArtist
 import javax.inject.Inject
 
 class ArtistMapper {

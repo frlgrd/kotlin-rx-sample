@@ -1,7 +1,7 @@
-package com.mobiapps.koltintest.core.model.mapper
+package com.mobiapps.koltintest.core.model.artist.mapper
 
-import com.mobiapps.koltintest.core.model.dto.LastFmImage
-import com.mobiapps.koltintest.core.model.dto.LastFmImageType
+import com.mobiapps.koltintest.core.model.artist.dto.LastFmImage
+import com.mobiapps.koltintest.core.model.artist.dto.LastFmImageType
 
 class ImageMapper {
     fun getMainImageUrl(images: List<LastFmImage?>?): String? {

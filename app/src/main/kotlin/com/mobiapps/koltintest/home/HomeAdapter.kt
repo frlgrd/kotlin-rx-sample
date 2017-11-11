@@ -4,7 +4,7 @@ import android.content.Context
 import android.view.View
 import com.mobiapps.koltintest.R
 import com.mobiapps.koltintest.common.ui.BaseAdapter
-import com.mobiapps.koltintest.core.model.Artist
+import com.mobiapps.koltintest.core.model.artist.Artist
 import org.jetbrains.anko.AnkoContext
 
 class HomeAdapter(context: Context) : BaseAdapter<Artist, HomeAdapter.Holder>(context) {

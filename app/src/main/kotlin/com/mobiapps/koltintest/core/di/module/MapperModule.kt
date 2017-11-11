@@ -1,7 +1,7 @@
 package com.mobiapps.koltintest.core.di.module
 
-import com.mobiapps.koltintest.core.model.mapper.ArtistMapper
-import com.mobiapps.koltintest.core.model.mapper.ImageMapper
+import com.mobiapps.koltintest.core.model.artist.mapper.ArtistMapper
+import com.mobiapps.koltintest.core.model.artist.mapper.ImageMapper
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

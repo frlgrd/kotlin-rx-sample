@@ -10,7 +10,7 @@ import android.widget.Toast
 import com.mobiapps.koltintest.R
 import com.mobiapps.koltintest.common.ui.view.CollectionView
 import com.mobiapps.koltintest.common.ui.SpaceDecoration
-import com.mobiapps.koltintest.core.model.Artist
+import com.mobiapps.koltintest.core.model.artist.Artist
 import org.jetbrains.anko.*
 import org.jetbrains.anko.appcompat.v7.toolbar
 import org.jetbrains.anko.design.appBarLayout

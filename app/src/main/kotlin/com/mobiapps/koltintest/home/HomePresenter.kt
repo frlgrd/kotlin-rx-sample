@@ -4,8 +4,8 @@ import com.mobiapps.koltintest.App
 import com.mobiapps.koltintest.common.ui.view.CollectionView
 import com.mobiapps.koltintest.common.Presenter
 import com.mobiapps.koltintest.common.RxUtil
-import com.mobiapps.koltintest.core.model.Artist
-import com.mobiapps.koltintest.core.model.mapper.ArtistMapper
+import com.mobiapps.koltintest.core.model.artist.Artist
+import com.mobiapps.koltintest.core.model.artist.mapper.ArtistMapper
 import com.mobiapps.koltintest.core.network.RestService
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers

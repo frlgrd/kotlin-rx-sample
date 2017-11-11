@@ -1,6 +1,6 @@
 package com.mobiapps.koltintest.core.network
 
-import com.mobiapps.koltintest.core.model.dto.LastFmResult
+import com.mobiapps.koltintest.core.model.artist.dto.LastFmResult
 import io.reactivex.Observable
 import retrofit2.http.GET
 import retrofit2.http.Query
