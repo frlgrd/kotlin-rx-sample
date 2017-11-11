@@ -1,4 +1,4 @@
-package com.mobiapps.koltintest.core.common
+package com.mobiapps.koltintest.common.ui.view
 
 interface CollectionView<in T> : LoadableView {
 

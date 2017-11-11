@@ -1,4 +1,4 @@
-package com.mobiapps.koltintest.core.common
+package com.mobiapps.koltintest.common
 
 interface Presenter {
 

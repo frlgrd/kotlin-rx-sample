@@ -1,5 +1,6 @@
-package com.mobiapps.koltintest
+package com.mobiapps.koltintest.core.di.module
 
+import com.mobiapps.koltintest.App
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

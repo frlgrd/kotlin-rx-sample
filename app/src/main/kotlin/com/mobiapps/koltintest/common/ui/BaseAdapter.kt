@@ -1,4 +1,4 @@
-package com.mobiapps.koltintest.core.common
+package com.mobiapps.koltintest.common.ui
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView

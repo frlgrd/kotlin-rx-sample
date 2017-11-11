@@ -8,8 +8,8 @@ import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import com.mobiapps.koltintest.R
-import com.mobiapps.koltintest.core.common.CollectionView
-import com.mobiapps.koltintest.core.common.ui.SpaceDecoration
+import com.mobiapps.koltintest.common.ui.view.CollectionView
+import com.mobiapps.koltintest.common.ui.SpaceDecoration
 import com.mobiapps.koltintest.core.model.Artist
 import org.jetbrains.anko.*
 import org.jetbrains.anko.appcompat.v7.toolbar

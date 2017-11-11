@@ -1,9 +1,9 @@
 package com.mobiapps.koltintest
 
 import android.app.Application
-import com.mobiapps.koltintest.core.deps.DaggerDeps
-import com.mobiapps.koltintest.core.deps.Deps
-import com.mobiapps.koltintest.core.deps.NetworkModule
+import com.mobiapps.koltintest.core.di.DaggerDeps
+import com.mobiapps.koltintest.core.di.component.Deps
+import com.mobiapps.koltintest.core.di.module.NetworkModule
 import java.io.File
 
 class App : Application() {

@@ -5,8 +5,8 @@ import android.support.v7.widget.SearchView
 import android.view.Menu
 import com.mobiapps.koltintest.App
 import com.mobiapps.koltintest.R
-import com.mobiapps.koltintest.core.common.BaseActivity
-import com.mobiapps.koltintest.core.common.RxUtil
+import com.mobiapps.koltintest.common.ui.BaseActivity
+import com.mobiapps.koltintest.common.RxUtil
 import org.jetbrains.anko.setContentView
 import javax.inject.Inject
 

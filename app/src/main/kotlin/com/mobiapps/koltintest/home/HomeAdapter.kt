@@ -3,7 +3,7 @@ package com.mobiapps.koltintest.home
 import android.content.Context
 import android.view.View
 import com.mobiapps.koltintest.R
-import com.mobiapps.koltintest.core.common.BaseAdapter
+import com.mobiapps.koltintest.common.ui.BaseAdapter
 import com.mobiapps.koltintest.core.model.Artist
 import org.jetbrains.anko.AnkoContext
 

@@ -1,4 +1,4 @@
-package com.mobiapps.koltintest.core.deps
+package com.mobiapps.koltintest.core.di.module
 
 import com.mobiapps.koltintest.core.model.mapper.ArtistMapper
 import com.mobiapps.koltintest.core.model.mapper.ImageMapper

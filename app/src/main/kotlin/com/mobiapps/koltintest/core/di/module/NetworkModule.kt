@@ -1,4 +1,4 @@
-package com.mobiapps.koltintest.core.deps
+package com.mobiapps.koltintest.core.di.module
 
 import com.mobiapps.koltintest.BuildConfig
 import com.mobiapps.koltintest.core.network.LastFmRequestInterceptor

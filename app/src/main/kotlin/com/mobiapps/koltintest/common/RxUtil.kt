@@ -1,4 +1,4 @@
-package com.mobiapps.koltintest.core.common
+package com.mobiapps.koltintest.common
 
 import android.support.v7.widget.SearchView
 import io.reactivex.Observable
