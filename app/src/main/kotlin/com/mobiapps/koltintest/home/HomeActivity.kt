@@ -23,7 +23,7 @@ class HomeActivity : BaseActivity<HomePresenter>() {
         ui.setContentView(this)
     }
 
-    override fun buildPresenter(): HomePresenter = HomePresenter(ui)
+    override fun buildPresenter(): HomePresenter = HomePresenter(this, ui)
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_search, menu)

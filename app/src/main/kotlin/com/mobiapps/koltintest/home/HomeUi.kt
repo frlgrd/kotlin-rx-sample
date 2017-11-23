@@ -59,7 +59,6 @@ class HomeUi : AnkoComponent<HomeActivity>, CollectionView<Artist> {
     override fun onCollectionLoaded(items: List<Artist>) {
         homeAdapter.items = items
         noData.visibility = if (items.isEmpty()) View.VISIBLE else View.GONE
-        (context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager).toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0)
     }
 
     override fun loadingStateChanged(isLoading: Boolean) {

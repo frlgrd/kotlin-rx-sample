@@ -1,9 +1,11 @@
 package com.mobiapps.koltintest.home
 
+import android.content.Context
+import android.view.inputmethod.InputMethodManager
 import com.mobiapps.koltintest.App
-import com.mobiapps.koltintest.common.ui.view.CollectionView
 import com.mobiapps.koltintest.common.Presenter
 import com.mobiapps.koltintest.common.RxUtil
+import com.mobiapps.koltintest.common.ui.view.CollectionView
 import com.mobiapps.koltintest.core.model.artist.Artist
 import com.mobiapps.koltintest.core.model.artist.mapper.ArtistMapper
 import com.mobiapps.koltintest.core.network.RestService
@@ -14,7 +16,7 @@ import io.reactivex.schedulers.Schedulers
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 
-class HomePresenter(private val view: CollectionView<Artist>) : Presenter {
+class HomePresenter(private val context: Context, private val view: CollectionView<Artist>) : Presenter {
 
     private lateinit var job: Disposable
 
@@ -40,6 +42,7 @@ class HomePresenter(private val view: CollectionView<Artist>) : Presenter {
                 .subscribe({
                     view.loadingStateChanged(false)
                     view.onCollectionLoaded(it)
+                    (context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager).toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0)
                 }, { view.onError(it) })
     }
 
